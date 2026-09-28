@@ -1,0 +1,10 @@
+# Scrub-gate lists contain sensitive terms. Never commit them.
+*.local.txt
+
+# Working plan (deleted before first commit)
+PLAN.md
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

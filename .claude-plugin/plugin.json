@@ -1,0 +1,33 @@
+{
+  "name": "raktim-skills",
+  "version": "0.1.0",
+  "description": "Engineering skills for Claude Code, mostly for Java / Spring Boot / Maven projects: multi-agent PR review, repo mapping, CLAUDE.md generation, guided implementation, Spring Boot upgrades, SQL migration repo exploration and telemetry-driven incident investigation.",
+  "author": {
+    "name": "Raktim Kalita",
+    "url": "https://github.com/Rktmkalita"
+  },
+  "homepage": "https://github.com/Rktmkalita/claude-skills",
+  "repository": "https://github.com/Rktmkalita/claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "skills",
+    "code-review",
+    "java",
+    "spring-boot",
+    "incident-investigation",
+    "observability"
+  ],
+  "skills": [
+    "./skills/review/pr-review",
+    "./skills/review/secondary-pr-review",
+    "./skills/codebase/repo-map",
+    "./skills/codebase/claude-md-generator",
+    "./skills/codebase/sql-migration-repo-explorer",
+    "./skills/engineering/guided-implementation",
+    "./skills/engineering/springboot-upgrade",
+    "./skills/investigation/incident-investigation",
+    "./skills/investigation/flow-reconstruction",
+    "./skills/investigation/living-flow-map"
+  ]
+}

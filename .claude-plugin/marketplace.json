@@ -1,0 +1,23 @@
+{
+  "name": "raktim",
+  "owner": {
+    "name": "Raktim Kalita",
+    "url": "https://github.com/Rktmkalita"
+  },
+  "description": "Raktim Kalita's engineering skills, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "raktim-skills",
+      "source": "./",
+      "description": "Multi-agent PR review, repo mapping, CLAUDE.md generation, guided implementation, Spring Boot upgrades and telemetry-driven investigation.",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "skills",
+        "code-review",
+        "java",
+        "investigation"
+      ]
+    }
+  ]
+}
