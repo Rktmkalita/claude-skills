@@ -50,6 +50,8 @@ For incident investigation, supply your service map and telemetry. The plugin do
 
 ## See the investigation approach
 
+**[Try the synthetic checkout incident](examples/incident-demo.md):** investigate a failure using supplied metrics, cross-service events, and recent changes. No live integrations are required. Includes a prompt, evidence bundle, illustrative answer key, and self-check.
+
 Existing walkthroughs explain how to connect evidence across a flow:
 
 - [Token-link flow](skills/investigation/flow-reconstruction/references/example-token-link-flow.md)
@@ -64,6 +66,8 @@ Review findings against source evidence. Multi-agent workflows can use more time
 Keep credentials, customer information, employer code, internal URLs, and production telemetry out of public issues and examples. Use fully synthetic reproductions.
 
 ## Feedback
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for focused contribution ideas and validation guidance. Issue and PR templates help you share actionable, synthetic reproductions.
 
 [Open an issue](https://github.com/Rktmkalita/claude-skills/issues/new) with the skill name, expected behavior, actual behavior, and a minimal synthetic reproduction. Installation reports should include Claude Code version and relevant tool setup. If a skill helps your workflow, a star helps others discover the project.
 
